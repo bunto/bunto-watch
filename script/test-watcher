@@ -1,0 +1,5 @@
+#!/bin/bash
+
+local-bunto serve --watch \
+  --source spec/test-site \
+  --destination spec/test-site/_site
