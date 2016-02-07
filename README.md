@@ -3,10 +3,11 @@
 Rebuild your Bunto site when a file changes with the `--watch` switch.
 
 [![Build Status](https://travis-ci.org/bunto/bunto-watch.svg?branch=master)](https://travis-ci.org/bunto/bunto-watch)
+[![Gem Version](https://badge.fury.io/rb/bunto-watch.svg)](https://badge.fury.io/rb/bunto-watch)
 
 ## Installation
 
-**`bunto-watch` comes pre-installed with Bunto 2.1 or greater.**
+**`bunto-watch` comes pre-installed with Bunto 1.0 or greater.**
 
 Add this line to your application's Gemfile:
 
