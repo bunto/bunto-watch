@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "bunto-watch"
-  spec.version       = "2.0.0"
+  spec.version       = "3.0.0"
   spec.authors       = ["Parker Moore", "Suriyaa Kudo"]
   spec.email         = ["parkrmoore@gmail.com", "SuriyaaKudoIsc@users.noreply.github.com"]
   spec.summary       = %q{Rebuild your Bunto site when a file changes with the `--watch` switch.}

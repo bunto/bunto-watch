@@ -2,15 +2,14 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.3.1
-  - 2.3.0
+- 2.3.1
+- 2.3.0
 matrix:
   include:
     - rvm: 2.2.5
-      env: BUNTO_VERSION=3.0.0
+      env: BUNTO_VERSION=3.2.1
 env:
   matrix:
-    - BUNTO_VERSION=3.0.0
     - BUNTO_VERSION=3.2.1
 branches:
   only:
@@ -20,7 +19,6 @@ before_script:
   - chmod a+x script/cibuild
   - chmod a+x script/test
   - chmod a+x script/test-watcher
-  - bundle update
 script: script/cibuild
 notifications:
   irc:
